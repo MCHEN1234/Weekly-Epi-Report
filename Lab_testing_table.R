@@ -12,7 +12,7 @@ library(janitor)
 
 #import incremental salt data
 salt_raw<-PHACTrendR::import_SALT_data()
-#
+###
 
 #rename and extract the date variables
 SALT <- salt_raw %>%
